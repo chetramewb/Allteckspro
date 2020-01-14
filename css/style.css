@@ -540,9 +540,7 @@ left: 15px;width: 16px;
     font-family: 'Gotham Narrow Book';
     font-weight: normal;
 }
-
-
-
+ 
  /**Week Style**/
  #week {	margin-bottom: 60px;}
  .week-text ul{list-style: none; padding-left: 0px;margin-bottom: 0px;}
@@ -582,3 +580,18 @@ left: 15px;width: 16px;
     font-weight: 500; }
  .week-ph {color: #959595;font-size: 13px; font-family: 'Gotham Narrow Book';
     font-weight: normal;}
+
+
+    /******Feature*******/
+
+     /**Feature Style**/
+     .feature-image img {width: 100%;}.feature-box { display: block;overflow: hidden;background: white;padding: 0px 20px; margin-top:40px;min-height: 315px;}
+    .deal-text h2 { font-size: 29px;font-weight: 500;
+    font-family: '.Gotham Narrow'; }
+    .feature-box .deal-box1 { padding-bottom: 0px;}
+    .feature-text .deal-box1 .deal-shapes{margin-top: 15px;}
+    .feature-text .deal-box1 .deal-text h2{margin-bottom: 15px;} 
+    .feature-text .deal-box1 .deal-text h6 { font-size: 16px; color: #959595; font-weight: normal;margin-bottom: 15px;}
+    .feature-text .deal-text { padding: 10px 0px;}
+    .feature-text .deal-box1  .deal-shapes p { font-size: 15px;font-weight: 500;
+        font-family: '.Gotham Narrow';}
