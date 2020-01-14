@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Gotham Narrow Book';
+    src: url('GothamNarrow-Book.eot');
+    src: local('Gotham Narrow Book'), local('GothamNarrow-Book'),
+        url('GothamNarrow-Book.eot?#iefix') format('embedded-opentype'),
+        url('GothamNarrow-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Narrow';
+    src: url('GothamNarrow-Bold.eot');
+    src: local('Gotham Narrow Bold'), local('GothamNarrow-Bold'),
+        url('GothamNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GothamNarrow-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Narrow';
+    src: url('GothamNarrow-Medium.eot');
+    src: local('Gotham Narrow Medium'), local('GothamNarrow-Medium'),
+        url('GothamNarrow-Medium.eot?#iefix') format('embedded-opentype'),
+        url('GothamNarrow-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham XNarrow';
+    src: url('GothamXNarrow-Black.eot');
+    src: local('Gotham XNarrow Black'), local('GothamXNarrow-Black'),
+        url('GothamXNarrow-Black.eot?#iefix') format('embedded-opentype'),
+        url('GothamXNarrow-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Narrow';
+    src: url('GothamNarrow-Black.eot');
+    src: local('Gotham Narrow Black'), local('GothamNarrow-Black'),
+        url('GothamNarrow-Black.eot?#iefix') format('embedded-opentype'),
+        url('GothamNarrow-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Narrow';
+    src: url('GothamNarrow-Light.eot');
+    src: local('Gotham Narrow Light'), local('GothamNarrow-Light'),
+        url('GothamNarrow-Light.eot?#iefix') format('embedded-opentype'),
+        url('GothamNarrow-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Narrow Ultra';
+    src: url('GothamNarrow-Ultra.eot');
+    src: local('Gotham Narrow Ultra'), local('GothamNarrow-Ultra'),
+        url('GothamNarrow-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('GothamNarrow-Ultra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Narrow';
+    src: url('GothamNarrow-Thin.eot');
+    src: local('Gotham Narrow Thin'), local('GothamNarrow-Thin'),
+        url('GothamNarrow-Thin.eot?#iefix') format('embedded-opentype'),
+        url('GothamNarrow-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
