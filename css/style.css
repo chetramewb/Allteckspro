@@ -80,20 +80,25 @@ text-decoration: none; font-family: 'Gotham Narrow Book';  font-weight: normal; 
 .top-header-link {	float: right;}
 .top-header-link ul {	padding-left: 0px; }
 .top-header-link ul li { display: inline-block; }
-.top-header-link ul li a {	color: #797979;	padding: 0px 10px;   border-right: 1px solid #797979;   font-family: 'Gotham Narrow Book';
+.header-link1 {	border: none !important;}
+.top-header-link ul li a {	color: #797979;	padding: 0px 10px;   border-right: 1px solid #797979; font-size: 14px;   font-family: '.Gotham Narrow Book';
 text-decoration: none;    font-family: 'Gotham Narrow Book';  font-weight: normal;}
 .top-header-menu {display: block;  overflow: hidden;   padding: 26px 0px;}
-.icon {  float: left;     padding: 13px 26px;     background: red;  }
+.icon {  float: left;     padding: 13px 26px;     background: red; position: absolute; right:0px; }
 
-#email {padding: 12px 10px;  float: left;  border: none;  font-family: 'Gotham Narrow Book';  font-weight: normal;  }
+.form-box {
+	position: relative;
+}
+
+#email {padding: 12px 10px;  float: left;  border: none;  font-family: 'Gotham Narrow Book';  font-weight: normal; position: relative;  }
 select::-ms-expand {display: none;  -webkit-appearance: none;-moz-appearance: none;  text-indent: 1px;text-overflow: '';}
 select { -webkit-appearance: none;-moz-appearance: none   ;text-indent: 1px;text-overflow: '';}
-.form-group {	margin-bottom: 0px;	width: 75%;	float: left;	border-top: 1px solid darkgray;	border-bottom: 1px solid darkgray;	border-left: 1px solid darkgray;}
+.form-group {	margin-bottom: 0px;	width: 100%;	float: left;	border-top: 1px solid darkgray;	border-bottom: 1px solid darkgray;	border-left: 1px solid darkgray;}
 
 label {position:relative;margin:0px;}
 .search-bar {	padding-top: 12px;}
-label::after {   content: "\f078";font-family: "FontAwesome";font-size: 11px;   color: #aaa;right: 0;   top: 14px;   padding: 0 0 2px;
-position: absolute; pointer-events: none;}
+/**label::after {   content: "\f078";font-family: "FontAwesome";font-size: 11px;   color: #aaa;right: 0;   top: 14px;   padding: 0 0 2px;
+position: absolute; pointer-events: none;}****/
 
 #international { border-left: 1px solid darkgray;	padding: 12px;	color: #797979;	width: 150px;	margin-right: 4px;	border-right: 0px;
 border-bottom: 0px;  border-top: 0px;  font-family: 'Gotham Narrow Book';   font-weight: normal;}
@@ -292,7 +297,7 @@ font-size: 24px;   width: 36px;    height: 55px;    color: white; }
 .search-bar1{margin-top:5px;}
 .search-bar1 #email {	padding: 13px 10px;}
 .search-bar1 .icon {padding: 14px 40px;background: #e62e04;}
-.search-bar1 .form-group {width: 73%;}
+.search-bar1 .form-group {width: 100%;}
 
 
 /*****************************Footer*****************************/
@@ -321,4 +326,313 @@ font-size: 24px;   width: 36px;    height: 55px;    color: white; }
 .end-footer-text p{margin-bottom: 0px;}
   
     
-   
+   /**********************************media-query **********************************/
+   @media only screen and (max-width:1199px) {
+    #email {
+        padding: 12px 2px;
+        width: 43%;
+    }
+
+    .header-icons img {
+        padding-right: 10px;
+    }
+
+    .navbar.navbar-expand-lg li a {
+        padding-left: 5px;
+        font-size: 14px;
+    }
+    .navbar.navbar-expand-lg {
+        float: right;
+        padding-right: 0px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+    
+   }
+
+   @media only screen and (max-width:991px) {
+
+    .navbar-toggler {
+        position: absolute;
+        right: 0px;
+        top: 25px;
+    }
+    .navbar.navbar-expand-lg ul {
+        margin-top: 50px;
+        text-align: start;
+    }
+
+    .header-icons {
+        padding-top: 25px;
+    }
+    .header-icon {
+        padding-top: 25px;
+    }
+
+    .header-icon::before {
+       
+        top: 10px;
+    }
+
+    .col-md-4.header-menu {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100.333333%;
+    }
+
+    .header-menu {
+        margin-bottom: 20px;
+    }
+
+    #email {
+        padding: 12px 10px;
+        width: 43%;
+    }
+
+    .top-header-menu .col-md-2 {
+        
+        flex: 0 0 25.666667%;
+        max-width: 25.666667%;
+    }
+
+    .top-header-menu .col-md-1 {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 25.333333%;
+        max-width: 22.333%;
+    }
+
+    .top-header-menu .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .department-text .dep-link1 {
+        color: #797979;
+        font-size: 14px;
+        font-family: 'Gotham Narrow Book';
+        font-weight: normal;
+    }
+    .department-text ul .dep-item1 {
+        padding: 10px 8px;
+        border-bottom: 1px solid #e5e3d8;
+    }
+
+    .deal-box1 h5 {
+        font-size: 14px;
+    }
+
+    .deal-heading h3 {
+        font-size: 24px;
+    }
+
+    .deal-text h6 {
+        font-size: 16px;
+    }
+    .col.week-main-link .fas.fa-angle-right {
+        padding-left: 0px;
+    }
+    .week-text .dep-link2 {
+        font-size: 12px;
+         
+    }
+    .week-text .dep-link3 {
+    font-size: 12px;
+    }
+
+    .week-block .col {
+        flex: 0 0 33%;
+        max-width: 33%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .week-block2 .col-md-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 50.666667%;
+        max-width: 49.666667%;
+        margin-bottom: 50px;
+    }
+
+    .weekly-heading h2 {
+    font-size: 18px;
+    }
+    .deal-text p {
+    font-size: 16px;
+    }
+
+    .feature-text .deal-box1 .deal-text h6 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .deal-text h2 {
+        font-size: 18px;
+        
+    }
+    .deal-text p {
+        font-size: 13px;
+    }
+
+    .banner-btn {
+     padding: 8px 8px;
+    font-size: 11px;
+    }
+    .feature-text .deal-box1 .deal-shapes {
+        margin-top: 0px;
+    }
+
+    .feature-text .deal-box1 .deal-shapes p {
+        font-size: 12px;  
+    }
+
+    .deal-shapes {
+        padding-bottom: 0px;
+    }
+
+    .deal-text h6 {
+        font-size: 12px;
+    }
+
+    .deal-shapes p {
+        font-size: 10px;
+        
+    }
+    .topnav a {
+    padding: 8px 10px; 
+    }
+
+    #footer .col {
+        flex: 0 0 50.666667%;
+        max-width: 49.666667%;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (max-width:767px) {
+    .top-header {
+    text-align: center;
+    }
+    .header-call-text {
+        margin-bottom: 10px;
+    }
+    .top-header-link {
+        float: unset;
+    }
+    .top-header-menu .col-md-2 {
+        flex: 0 0 50.666667%;
+        max-width: 50.666667%;
+    }
+    .top-header-menu .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 50%;
+        max-width: 49%;
+    }
+    .top-header-menu .col-md-1 {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 50.333333%;
+        max-width: 49.333%;
+        text-align: end;
+    }
+
+    .header-icon {
+         
+        float: right;
+    }
+    .header-icons {
+        text-align: start;
+        display: block;
+    }
+    .navbar.navbar-expand-lg {
+        float: unset;
+    }
+    .header-logo img {
+        width: unset;
+    }
+
+    .banner-text h1 {
+    font-size: 20px; 
+    }
+    .banner-btn {
+        font-size: 10px;
+    }
+    .deal-box1 h5 {
+        font-size: 16px;
+    }
+
+    .official-heading img {
+        width: auto;
+         
+    }
+
+    .official-inner {
+        margin-bottom: 30px;
+    }
+
+    #deal {
+    text-align: center;
+    }
+
+    .deal-heading-linkgo {
+    float: unset;     
+    }
+    .deal-text h6 {
+        font-size: 18px;
+    }
+    .deal-text p {
+        font-size: 16px;
+    }
+    .deal-shapes p {
+        font-size: 14px;
+    }
+    #week {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .week-block .col {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .baseus {
+        height: unset;
+    }
+
+    .week-block2 .col-md-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 100.666667%;
+        max-width: 100.666667%;
+        margin-top: 50px;
+    }
+    #deal-2 {
+        text-align: center;
+    }
+
+    .deal-heading-tab {
+        justify-content: center;
+        display: flex;
+    }
+    .deal-box {
+    margin-bottom: 20px;
+    }
+    #news {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #footer .col {
+        flex: 0 0 100.666667%;
+        max-width: 100.666667%;
+        margin-bottom: 20px;
+    }
+}
+
+
+ 
+ 
+
