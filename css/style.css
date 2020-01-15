@@ -67,428 +67,143 @@
     font-weight: 100;
     font-style: normal;
 }
-body {font-size:16px; margin:0 auto;  font-family: 'Gotham Narrow'; }
-.container {
-	max-width: 1720px;
-	margin-left: auto;
-	margin-right: auto;
-	box-sizing: border-box;
-	width: 100%;
-	padding-left: 15px;
-	padding-right: 15px;
-}
+body {font-size:16px; margin:0 auto;  font-family: '.Gotham Narrow'; }
+.container {max-width: 1720px;	margin-left: auto;	margin-right: auto;	box-sizing: border-box;	width: 100%;	padding-left: 15px;	padding-right: 15px;}
+/**************top-header****************/
+.top-header {  display: block;	overflow: hidden;	background: #f5f4ee; padding-top: 10px;}
+    
+.header-call-text .fas.fa-phone-volume, span {color: #797979;	transform: rotate(-38deg);   padding-right: 5px;
+text-decoration: none; font-family: 'Gotham Narrow Book';  font-weight: normal; }
 
+.header-call-text a {  text-decoration: none;   font-family: 'Gotham Narrow Book';   font-weight: normal;}
+.far.fa-envelope {	color: #797979;	padding-right: 5px;}
+.top-header-link {	float: right;}
+.top-header-link ul {	padding-left: 0px; }
+.top-header-link ul li { display: inline-block; }
+.top-header-link ul li a {	color: #797979;	padding: 0px 10px;   border-right: 1px solid #797979;   font-family: 'Gotham Narrow Book';
+text-decoration: none;    font-family: 'Gotham Narrow Book';  font-weight: normal;}
+.top-header-menu {display: block;  overflow: hidden;   padding: 26px 0px;}
+.icon {  float: left;     padding: 13px 26px;     background: red;  }
 
-.top-header {
-	display: block;
-	overflow: hidden;
-	background: #f5f4ee;
-	padding-top: 10px;
-}
-
-  .header-call-text .fas.fa-phone-volume, span {
-	color: #797979;
-	transform: rotate(-38deg);
-    padding-right: 5px;
-    text-decoration: none;
-    font-family: 'Gotham Narrow Book';
-    font-weight: normal
-}
-
-.header-call-text a {
-    text-decoration: none;
-    font-family: 'Gotham Narrow Book';
-    font-weight: normal
-}
-
-.far.fa-envelope {
-	color: #797979;
-	padding-right: 5px;
-}
-
-.top-header-link {
-	float: right;
-}
-
-.top-header-link ul {
-	padding-left: 0px;
-}
-
-.top-header-link ul li {
-display: inline-block;
-}
-
-.top-header-link ul li a {
-	color: #797979;
-	padding: 0px 10px;
-    border-right: 1px solid #797979;
-    font-family: 'Gotham Narrow Book';
-    text-decoration: none;
-    font-family: 'Gotham Narrow Book';
-    font-weight: normal
-}
-
-.top-header-menu {display: block;
-    overflow: hidden;
-    padding: 26px 0px;}
-
-    .icon {
-        float: left;
-        padding: 13px 26px;
-        background: red;
-        /* margin-right: 12px; */
-    }
-
-
-#email {padding: 12px 10px;
-    float: left;
-    border: none;
-    font-family: 'Gotham Narrow Book';
-    font-weight: normal
-    }
-
-select::-ms-expand {display: none;
-   -webkit-appearance: none;-moz-appearance: none;
-    text-indent: 1px;text-overflow: '';
-}
-
-select { -webkit-appearance: none;-moz-appearance: none
-    ;text-indent: 1px;text-overflow: '';
-}
-
-.form-group {
-	margin-bottom: 0px;
-	width: 75%;
-	float: left;
-	border-top: 1px solid darkgray;
-	border-bottom: 1px solid darkgray;
-	border-left: 1px solid darkgray;
-}
-
-
+#email {padding: 12px 10px;  float: left;  border: none;  font-family: 'Gotham Narrow Book';  font-weight: normal;  }
+select::-ms-expand {display: none;  -webkit-appearance: none;-moz-appearance: none;  text-indent: 1px;text-overflow: '';}
+select { -webkit-appearance: none;-moz-appearance: none   ;text-indent: 1px;text-overflow: '';}
+.form-group {	margin-bottom: 0px;	width: 75%;	float: left;	border-top: 1px solid darkgray;	border-bottom: 1px solid darkgray;	border-left: 1px solid darkgray;}
 
 label {position:relative;margin:0px;}
 .search-bar {	padding-top: 12px;}
-label::after {
-    content: "\f078";font-family: "FontAwesome";font-size: 11px;
-    color: #aaa;right: 0;
-    top: 14px;
-    padding: 0 0 2px;
-    position: absolute;
-    pointer-events: none;
-}
-#international {
-	border-left: 1px solid darkgray;
-	padding: 12px;
-	color: #797979;
-	width: 150px;
-	margin-right: 4px;
-	border-right: 0px;
-	border-bottom: 0px;
-    border-top: 0px;
-    font-family: 'Gotham Narrow Book';
-    font-weight: normal
-}
+label::after {   content: "\f078";font-family: "FontAwesome";font-size: 11px;   color: #aaa;right: 0;   top: 14px;   padding: 0 0 2px;
+position: absolute; pointer-events: none;}
+
+#international { border-left: 1px solid darkgray;	padding: 12px;	color: #797979;	width: 150px;	margin-right: 4px;	border-right: 0px;
+border-bottom: 0px;  border-top: 0px;  font-family: 'Gotham Narrow Book';   font-weight: normal;}
+
 .fa.fa-search {	color: white;}
 .header-logo img{width:100%;}
 .header-logo {	padding-top: 17px;}
 .nav-link.active {color: #e62e04;}
 .nav-link {color: #797979;}
-.navbar.navbar-expand-lg li a {
-	font-family: '.Gotham Narrow';
-    font-weight: 500;
-    font-size: 15px;
-}
-.navbar.navbar-expand-lg {
-	float: right;
-}
-.navbar.navbar-expand-lg li {
-	 
-	padding-top: 10px;
-}
+.navbar.navbar-expand-lg li a {	font-family: '.Gotham Narrow';  font-weight: 500;  font-size: 15px;}
+.navbar.navbar-expand-lg {	float: right;}
+.navbar.navbar-expand-lg li {padding-top: 10px;}
 .nav-link:hover{color: #e62e04;}
-.header-icons {
-	padding-top: 15px;
-	text-align: center;
-	display: block;
-}
+.header-icons {	padding-top: 15px;	text-align: center;	display: block;}
 .header-icons img {padding-right: 20px;}
 .header-icon {padding-top: 10px;position: relative;}
-.header-icon::before {content: "1";position: absolute;top: -3px;
-left: 15px;width: 16px;
- height: 16px;background: red;
-    color: ;border-radius: 100%;
-     font-size: 12px;
-    text-align: center;
-    color: white;padding: -10px;
-}
-.header-icon a {
-	color: #797979;
-	font-family: '.Gotham Narrow';
-	font-weight: 500;
-	font-size: 14px;
-}
+.header-icon::before {content: "1";position: absolute;top: -3px;left: 15px;width: 16px;height: 16px;background: red;color: ;border-radius: 100%;
+font-size: 12px;   text-align: center; color: white;padding: -10px;}
+.header-icon a {color: #797979;	font-family: '.Gotham Narrow';	font-weight: 500;	font-size: 14px;}
 .header-icon a:hover{text-decoration:none;color: #797979;}
-.top-header-link ul li a:hover {
-	color: #e62e04;
-}
-.header-call-text, a, span:hover {
-	color: #e62e04;
-}
 
-       /***Banner-Style***/
-       #banner{margin-bottom:20px;}
-       .department-box {display: block;
-        overflow:hidden;
-        border: 1px solid #e5e3d8;min-height: 100%;
-    }
-       .department-text ul {list-style: none;
-        padding-left: 0px;
-    }
-       .watch {padding-right: 10px;}
-       .working-heading h5 {
-        margin-bottom: 0px;
-        color: white;
-        font-size: 18px;
-        font-family: '.Gotham Narrow';
-        font-weight: 500;
-    }
-       .working-heading {padding: 15px;
-        background: #e62e04;
-    }
-       .department-text ul .dep-item1{padding: 10px 15px;
-        border-bottom:1px solid #e5e3d8 ;
-    }
-       .dep-link1:hover {background: #f5f4ee;}
-       .department-text  .dep-link1:hover{text-decoration: none;}
-       .department-text .dep-link1 {
-        color: #797979;
-        font-size: 16px;
-        font-family: 'Gotham Narrow Book';
-        font-weight: normal;
-    }
-       .sub-menu {
-           display: none;}
-       .sub-menu {position: relative;background: #797979;	width: 100%;text-align: center;left: 0px;	top: 11px;}
-       .sub-menu li {	padding: 4px 0px;border-bottom: 1px solid white;}
-       .sub-menu li a:hover{text-decoration: none;color:#e6b904;}
-       .sub-menu li a {
-        color: white;
-        padding: 20px 0px;
-        font-size: 16px;
-        font-family: 'Gotham Narrow Book';
-        font-weight: normal;
-    }
-       .department-text .dep-item1:hover .sub-menu{display: block;}
-       .fas.fa-angle-right {font-size: 16px;color:#797979;float: right;}
-       .banner-image {width: 100%; object-fit: cover;min-height:444px;}
-       .banner-slick-slider img {width: 100%;}
-       .banner-slick-slider {position: relative;}
-       .banner-logo {width:38% !important;}
-       .banner-block {position: absolute;top: 112px;left: 42px;}
-       .for-shape img {width: 74%;}
-       .for-text h5 {
-        font-size: 18px;
-        font-family: '.Gotham Narrow';
-        font-weight: 500;
-       }
-       .for-text {position: absolute;top: 8px;	margin: 0 auto;left: 12px;color: white;}
-       .for-shape {position: relative;margin:30px 0px;}
-       .banner-button {margin-top: 20px;}
+.top-header-link ul li a:hover {	color: #e62e04;}
+.header-call-text, a, span:hover {	color: #e62e04;}
 
-       .banner-text h1 {
-        color: white;
-        font-size: 24px;
-        font-family: '.Gotham Narrow';
-        font-weight: 500;
-    }
-       .banner-btn {
-        border: none;
-        background: #e62e04;
-        color: white;	
-        padding: 8px 20px;
-        border-radius: 3px;	
-        font-size: 12px;
-        font-family: '.Gotham Narrow';
-        font-weight: 500;
-    }
-       .banner-btn:hover{
-           background: white;
-           color:#e62e04;
-           transition: all ease-in-out 0.6s;
-         }
-       .smart {
-           color: white;
-           margin-left: 10px;
-           font-family: '.Gotham Narrow';
-           font-weight: 500;
-        }
-       .smart:hover{text-decoration: none;	color: white;}
-       .fas.fa-shopping-cart {padding-left: 6px;}
-       .back-arrow.slick-arrow {
-        border: none;
-        top: 50%;
-        position: absolute;
-        z-index: 1;
-        left: 0;
-        background: #272829;
-        font-size: 24px;
-        width: 36px;
-        height: 55px;
-        color: white;
-    }
-       .next-arrow.slick-arrow { border: none;
-        top: 50%;
-        position: absolute;
-        z-index: 1;
-        right: 0;
-        background: #272829;
-        font-size: 24px;
-        width: 36px;
-        height: 55px;
-        color: white;
-    }
+       /***********Banner*********/
+#banner {margin-bottom:20px;}   .department-box {display: block;    overflow:hidden;   border: 1px solid #e5e3d8;min-height: 100%;  }
+.department-text ul {list-style: none;  padding-left: 0px;  }
+.watch {padding-right: 10px;}     .working-heading h5 {     margin-bottom: 0px;     color: white;     font-size: 18px;
+font-family: '.Gotham Narrow';  font-weight: 500; }
+.working-heading {padding: 15px; background: #e62e04;}
 
-    .next-arrow.slick-arrow .fas.fa-angle-right {
-        color: white;
-        font-size: 24px;
-    }
-    .back-arrow.slick-arrow:hover{background: #e62e04; transition: all ease-in-out 0.5s;}
-    .next-arrow.slick-arrow:hover{background: #e62e04; transition: all ease-in-out 0.5s;}
-       .big-deal {display: block;	overflow: hidden;background: #f5f4ee;padding: 20px;text-align: center;}
-       .deal-box1 h5 {
-        font-size: 18px;
-        color: #444;
-        text-transform: uppercase;
-        font-family: '.Gotham Narrow';
-        font-weight: 400;
-    }
-       .deal-button {
-           border: none;
-           background: white;
-           padding: 8px 20px;
-           border-radius: 3px;
-           color: gray;
-           margin: 5px;
-           font-size: 14px;
-           font-family: '.Gotham Narrow';
-           font-weight: 500;
-        }
-       .deal-box1 {padding: 18px 0px;}
-       .fas.fa-angle-right {padding-left: 10px;padding-top: 2px;}
-       .deal-box1 span {font-weight: 600;}
-       .deal-box1:hover .fas.fa-angle-right{color:white;}
-       .deal-box1:hover{background: white;}
-       .deal-box1:hover .deal-button{background:#e62e04;transition: all ease-in-out 0.6s; color:white;}
+.department-text ul .dep-item1{padding: 10px 15px;  border-bottom:1px solid #e5e3d8; }
+.dep-link1:hover {background: #f5f4ee;}
+.department-text  .dep-link1:hover{text-decoration: none;}
+.department-text .dep-link1 { color: #797979; font-size: 16px; font-family: 'Gotham Narrow Book'; font-weight: normal; }
 
-       /*******************official*************************/
-       #official {
-        width: 100%;
-        display: block;
-        overflow: hidden;
-        padding: 10px 0px 70px;
-        text-align: center;
-    }
+.sub-menu {  display: none;}
+.sub-menu {position: relative;background: #797979;	width: 100%;text-align: center;left: 0px;	top: 11px;}
+.sub-menu li {	padding: 4px 0px;border-bottom: 1px solid white;}
+.sub-menu li a:hover{text-decoration: none;color:#e6b904;}
+.sub-menu li a {  color: white;    padding: 20px 0px;   font-size: 16px;  font-family: 'Gotham Narrow Book';   font-weight: normal; }
+.department-text .dep-item1:hover .sub-menu{display: block;}
+.fas.fa-angle-right {font-size: 16px;color:#797979;float: right;}
+.banner-image {width: 100%; object-fit: cover;min-height:444px;}
+.banner-slick-slider img {width: 100%;}
+.banner-slick-slider {position: relative;}
+.banner-logo {width:38% !important;}
+.banner-block {position: absolute;top: 112px;left: 42px;}
+.for-shape img {width: 74%;}
+.for-text h5 {font-size: 18px; font-family: '.Gotham Narrow'; font-weight: 500;   }
+.for-text {position: absolute;top: 8px;	margin: 0 auto;left: 12px;color: white;}
+.for-shape {position: relative;margin:30px 0px;}
+.banner-button {margin-top: 20px;}
+.banner-text h1 {    color: white;   font-size: 24px;   font-family: '.Gotham Narrow';    font-weight: 500; }
+.banner-btn { border: none;  background: #e62e04;  color: white;	   padding: 8px 20px;    border-radius: 3px;
+ font-size: 12px; font-family: '.Gotham Narrow'; font-weight: 500;  }
+.banner-btn:hover{  background: white;  color:#e62e04;   transition: all ease-in-out 0.6s; }
+.smart {  color: white;   margin-left: 10px;   font-family: '.Gotham Narrow';  font-weight: 500;  }
 
-
-    .official-heading img {
-        width: 100%;
-        text-align: center;
-    }
-
-    .official-inner {
-        background: white;
-        padding: 10px 20px;
-        
-    }
+.smart:hover{text-decoration: none;	color: white;}
+.fas.fa-shopping-cart {padding-left: 6px;}
+.back-arrow.slick-arrow {   border: none;   top: 50%;    position: absolute;   z-index: 1;   left: 0;   background: #272829;
+font-size: 24px;    width: 36px;   height: 55px;   color: white;   }
+.next-arrow.slick-arrow { border: none;  top: 50%;  position: absolute;    z-index: 1;    right: 0;    background: #272829;
+font-size: 24px;   width: 36px;    height: 55px;    color: white; }
+.next-arrow.slick-arrow .fas.fa-angle-right {   color: white;   font-size: 24px; }
+.back-arrow.slick-arrow:hover{background: #e62e04; transition: all ease-in-out 0.5s;}
+.next-arrow.slick-arrow:hover{background: #e62e04; transition: all ease-in-out 0.5s;}
+.big-deal {display: block;	overflow: hidden;background: #f5f4ee;padding: 20px;text-align: center;}
+.deal-box1 h5 { font-size: 18px;   color: #444;   text-transform: uppercase;   font-family: '.Gotham Narrow';   font-weight: 400; }
+.deal-button { border: none;  background: white;  padding: 8px 20px;  border-radius: 3px;  color: gray; margin: 5px;    font-size: 14px;  font-family: '.Gotham Narrow';  font-weight: 500;  }
        
+.deal-box1 {padding: 18px 0px;}
+.fas.fa-angle-right {padding-left: 10px;padding-top: 2px;}
+.deal-box1 span {font-weight: 600;}
+.deal-box1:hover .fas.fa-angle-right{color:white;}
+.deal-box1:hover{background: white;}
+.deal-box1:hover .deal-button{background:#e62e04;transition: all ease-in-out 0.6s; color:white;}
+/*******************official*************************/
+#official {  width: 100%;    display: block;    overflow: hidden;   padding: 10px 0px 70px;  text-align: center;  }
+.official-heading img {   width: 100%;   text-align: center; }
+.official-inner {   background: white;   padding: 10px 20px; }
+    
+.official-inner h6 {    text-align: center;    padding: 15px 0px;  font-weight: 600;   font-family: '.Gotham Narrow';  font-weight: 500;  }
+.official-heading:hover {  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);   transition: all ease-in-out 0.6s;}
 
-    .official-inner h6 {
-        text-align: center;
-        padding: 15px 0px;
-        font-weight: 600;
-        font-family: '.Gotham Narrow';
-        font-weight: 500;
-    }
 
-    .official-heading:hover {
-        box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-        transition: all ease-in-out 0.6s;
-    }
-
-
-    /******deal******/
-     /***Deal-Style***/
-     #deal {
-        padding: 60px 0px;
-        background: #f5f4ee;
-        overflow: hidden;
-    }
-
-.Recommendation {
- margin-top: 30px;
-}
+    /**********************deal***-********************/
+#deal {   padding: 60px 0px;  background: #f5f4ee;  overflow: hidden; }
+.Recommendation { margin-top: 30px;}
 .deal-heading-link ul {list-style: none;}
 .deal-main-box {width:95% !important;}
 .deal-heading-link ul li a {color: #3f3f3f;font-size: 17px;text-decoration: #3f3f3f;}
-.deal-heading-linkgo a {
-	color: #3f3f3f;
-	font-size: 17px;
-	text-decoration: none;
-}
-
-.deal-heading-linkgo .fas.fa-angle-right {
-	float: none;
-}
-.deal-heading-linkgo {
-	padding-top: 10px;
-    float: right;
-    font-family: '.Gotham Narrow';
-    font-weight: 500;
-}
-.deal-heading img {
-	width: auto;
-}
+.deal-heading-linkgo a {	color: #3f3f3f;	font-size: 17px;	text-decoration: none;}
+.deal-heading-linkgo .fas.fa-angle-right {	float: none;}
+.deal-heading-linkgo {padding-top: 10px;float: right;font-family: '.Gotham Narrow';font-weight: 500;}
+.deal-heading img {width: auto;}
 .deal-heading-link ul {padding-left: 0px;}
 .deal-heading-link ul li a:hover{color: #e62e04;font-size: 17px;text-decoration: #3f3f3f;}
 .deal-heading-link .fas.fa-angle-right {padding-left: 10px;padding-top: 6px;}
-.deal-heading h3 {font-size: 28px;text-transform: uppercase; font-weight: 600; font-family: '.Gotham Narrow';
-    font-weight: 500;}
+.deal-heading h3 {font-size: 28px;text-transform: uppercase; font-weight: 600; font-family: '.Gotham Narrow';   font-weight: 500;}
 .deal-heading span {	color: #e62e04;}
 .deal-box {display: block;background: white;border: 1px solid #d2d1cc;width: 100%;min-height:auto;}
 .deal-shapes {padding-bottom: 32px;}
-.deal-text h6 {
-	font-size: 19px;
-	color: #202122;
-	font-family: '.Gotham Narrow';
-	font-weight: 500;
-}
+.deal-text h6 {	font-size: 19px;	color: #202122;	font-family: '.Gotham Narrow';	font-weight: 500;}
 
-.deal-image img {
-  width: 100%;
-    }
-.deal-text p{
-    color:#e6b904;
-    font-size: 17px;
-    font-family: '.Gotham Narrow';
-    font-weight: 500; 
-}
-.deal-block .back-arrow.slick-arrow {
-    
-    border: none;
-    top: 33%;
-    position: absolute;
-    z-index: 1;
-    left: -10px;
-}
-.deal-block .next-arrow.slick-arrow {
-    
-    border: none;
-    position: absolute;
-    right: -10px;
-    z-index: 1;
-    top: 33%;
-}
+.deal-image img {  width: 100%;   }
+.deal-text p{  color:#e6b904;   font-size: 17px;   font-family: '.Gotham Narrow';   font-weight: 500; }
+.deal-block .back-arrow.slick-arrow {  border: none;  top: 33%;  position: absolute;  z-index: 1;   left: -10px;}
+.deal-block .next-arrow.slick-arrow {   border: none; position: absolute; right: -10px; z-index: 1;  top: 33%;}
 
 .deal-shapes p {font-size: 12px;text-align: center;display: inline-block;color: #959595;}
 .feature-box .deal-shapes img {	float: left;width: 15px;font-size: 13px;margin-right: 5px;padding-top: 6px;}
@@ -516,32 +231,11 @@ left: 15px;width: 16px;
 .deal-box:hover{border:none;box-shadow: 0px 0px 10px rgba(0,0,0,0.3);transition: all ease-in-out 0.6s;cursor: pointer;}
 .deal-main-box1 {margin-top: 40px;}
 
-
-
-/**********plACE******/
-#place {
-	width: 100%;
-	display: block;
-	overflow: hidden;
-	padding: 60px 0px;
-	text-align: center;
-}
-
-.place-heading {
-	background: #f2f2f2;
-	padding: 40px 0px;
-}
-
-.place-heading h5 {
-	font-size: 20px;
-	color: #989898;
-	font-weight: 500;
-    text-align: center;
-    font-family: 'Gotham Narrow Book';
-    font-weight: normal;
-}
- 
- /**Week Style**/
+/************************plACE*********************/
+#place {width: 100%;	display: block;	overflow: hidden;	padding: 60px 0px;	text-align: center;}
+.place-heading {	background: #f2f2f2;	padding: 40px 0px; }
+.place-heading h5 {	font-size: 20px;	color: #989898;	font-weight: 500;    text-align: center;    font-family: 'Gotham Narrow Book';    font-weight: normal;}
+/*******************************Week-Style************************************/
  #week {	margin-bottom: 60px;}
  .week-text ul{list-style: none; padding-left: 0px;margin-bottom: 0px;}
  .week-text ul .dep-item2{padding: 6px 15px;border-bottom:1px solid #e5e3d8 ;}
@@ -550,48 +244,81 @@ left: 15px;width: 16px;
  .dep-item3:hover  .dep-link3{color: white;}
  .dep-item3:hover {background: #e6b904;}
  .week-text  .dep-link2:hover{text-decoration: none;}
- .week-text  .dep-link2{
-    color:#797979;
-    font-size: 14px;
-    font-family: '.Gotham Narrow';
-    font-weight: 500;
-}
+ .week-text  .dep-link2{   color:#797979;   font-size: 14px;   font-family: '.Gotham Narrow';   font-weight: 500;}
  .week-box {display: block;overflow: hidden;border: 1px solid #e5e3d8;}
  .week-text ul .dep-item3{padding: 10px 15px;}
  .week-text  .dep-link3:hover{text-decoration: none;}
  .week-text  .dep-link3{	color:#797979;font-size: 14px;font-weight: 500;}
- .week-block {margin: 40px 0px;display: block;font-family: '.Gotham Narrow';
-    font-weight: 500;}
+ .week-block {margin: 40px 0px;display: block;font-family: '.Gotham Narrow';   font-weight: 500;}
  .week-image img {width: 100%;}
  .week-image {width: 100%;	display: flex;	min-height: 100%;margin-top:5px;}
-     /*week-block2*/
-     .baseus {
-        width: 100%;
-        height: 362px;
-        object-fit: cover;
-    }
+
+ .baseus {    width: 100%;    height: 362px;    object-fit: cover; }
  .weekly-text {display: block;overflow: hidden;width: 36%;position: absolute;top: 0;	right: 44px;}
  .weekly-heading h2 {color: white;font-weight: 600;padding-top: 15px;	font-size: 30px; font-family: '.Gotham Narrow';
-    font-weight: 500;}
+ font-weight: 500;}
  .deal-shapes1 .ph{	position: relative;	padding-right: 20px;}
  .deal-shapes1 .ph::before {content: "";position: absolute;width: 1px;height: 32px;background:#959595;right: 6px;top: 4px;}
  .deal-shapes1 .ph::after{content: "";position: absolute;width: 1px;height: 32px;background:#959595;right: 8px;top: 4px;}
- .deal-shapes1 p {font-size: 12px;text-align: center;display: inline-block;color: #959595; font-family: '.Gotham Narrow';
-    font-weight: 500; }
+ .deal-shapes1 p {font-size: 12px;text-align: center;display: inline-block;color: #959595; font-family: '.Gotham Narrow'; font-weight: 500; }
  .week-ph {color: #959595;font-size: 13px; font-family: 'Gotham Narrow Book';
-    font-weight: normal;}
+ font-weight: normal;}
 
 
-    /******Feature*******/
+    /***************************Feature****************************/
 
-     /**Feature Style**/
-     .feature-image img {width: 100%;}.feature-box { display: block;overflow: hidden;background: white;padding: 0px 20px; margin-top:40px;min-height: 315px;}
-    .deal-text h2 { font-size: 29px;font-weight: 500;
-    font-family: '.Gotham Narrow'; }
-    .feature-box .deal-box1 { padding-bottom: 0px;}
-    .feature-text .deal-box1 .deal-shapes{margin-top: 15px;}
-    .feature-text .deal-box1 .deal-text h2{margin-bottom: 15px;} 
-    .feature-text .deal-box1 .deal-text h6 { font-size: 16px; color: #959595; font-weight: normal;margin-bottom: 15px;}
-    .feature-text .deal-text { padding: 10px 0px;}
-    .feature-text .deal-box1  .deal-shapes p { font-size: 15px;font-weight: 500;
-        font-family: '.Gotham Narrow';}
+     
+.feature-image img {width: 100%;}.feature-box { display: block;overflow: hidden;background: white;padding: 0px 20px; margin-top:40px;min-height: 315px;}
+.deal-text h2 { font-size: 29px;font-weight: 500;font-family: '.Gotham Narrow'; }
+.feature-box .deal-box1 { padding-bottom: 0px;}
+.feature-text .deal-box1 .deal-shapes{margin-top: 15px;}
+.feature-text .deal-box1 .deal-text h2{margin-bottom: 15px;} 
+.feature-text .deal-box1 .deal-text h6 { font-size: 16px; color: #959595; font-weight: normal;margin-bottom: 15px;}
+.feature-text .deal-text { padding: 10px 0px;}
+.feature-text .deal-box1  .deal-shapes p { font-size: 15px;font-weight: 500; font-family: '.Gotham Narrow';}
+#deal-2{margin:40px 0px;}
+.topnav { overflow: hidden;margin-top:12px;}
+.topnav a {float: left;color: #797979;text-align: center;padding: 8px 15px;text-decoration: none;font-size: 14px; font-family: '.Gotham Narrow'; font-weight: 500;}
+.topnav a:hover {background-color: #e62e04;color: white;border-radius: 3px;}
+.topnav a.active { background-color: #e62e04;border-radius: 3px;color: white;}
+
+
+
+                        /**News Style**/
+ #news{margin:40px 0px;}                       
+ .news-text {font-weight: 600;color: #959595;margin-top: 20px;font-size: 18px;font-family: '.Gotham Narrow';}
+.news-text span {color: #e6b904;}
+.NEws-deal h3 {	margin-top: 20px;}
+.search-bar1{margin-top:5px;}
+.search-bar1 #email {	padding: 13px 10px;}
+.search-bar1 .icon {padding: 14px 40px;background: #e62e04;}
+.search-bar1 .form-group {width: 73%;}
+
+
+/*****************************Footer*****************************/
+ 
+#footer{background:#f2f1ea; padding:70px 0px; }                     
+.header-call-text1 a {color: #4d4d4d; }
+.call {color: #e62e04;	 font-family: '.Gotham Narrow';}
+.header-call-text1 a:hover{color: #e62e04; text-decoration: none;}
+.fas.fa-home {padding-right: 8px;}
+.fas.fa-wifi {transform: rotate(50deg) !important;padding-right: 8px;}
+.header-call-text1 {margin-bottom: 10px;}
+.footer-text {margin-top: 10px;}
+.footer-text h6{font-weight: 600;color:#e6b904;text-transform: uppercase; font-size: 19px;}
+.header-call-text2 img {width: 56px;display: block;overflow: hidden;float: left;min-height: 45px;	padding-right: 10px;}
+.header-call-text2 span { color: #e6b904;	font-family: '.Gotham Narrow';	margin-left: 10px;}
+.header-call-text2 a {color: #4d4d4d;}
+.header-call-text2 a:hover{text-decoration: none;color:#e62e04;}
+.week-box4 .fas.fa-angle-right { float: left;padding-right:8px;padding-top:5px;}
+.dep-link4 {color: #4d4d4d;padding-bottom: 10px;line-height: 26px;}
+.dep-link4:hover{color:#e62e04;text-decoration: none;}
+.week-box4 {margin-top: 23px;}
+.footer-text .fas.fa-angle-right { padding-left: 0px !important;  }
+              /************footer-end************/
+#end-footer{background: #e62e04;}
+.end-footer-text { text-align: center;color: white;font-size: 15px;padding:10px 0px;}
+.end-footer-text p{margin-bottom: 0px;}
+  
+    
+   
