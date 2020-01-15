@@ -328,331 +328,87 @@ font-size: 24px;   width: 36px;    height: 55px;    color: white; }
     
    /**********************************media-query **********************************/
    @media only screen and (max-width:1199px) {
-    #email {
-        padding: 12px 2px;
-        width: 43%;
-    }
+ #email {  padding: 12px 2px;  width: 43%; }
+.header-icons img {   padding-right: 10px;  }
+.navbar.navbar-expand-lg li a {   padding-left: 5px;   font-size: 14px;  }
+.navbar.navbar-expand-lg {     float: right;  padding-right: 0px;   }
+ body {      overflow-x: hidden;   }
+ }
 
-    .header-icons img {
-        padding-right: 10px;
-    }
+ @media only screen and (max-width:991px) {
 
-    .navbar.navbar-expand-lg li a {
-        padding-left: 5px;
-        font-size: 14px;
-    }
-    .navbar.navbar-expand-lg {
-        float: right;
-        padding-right: 0px;
-    }
+.navbar-toggler { position: absolute;   right: 0px;   top: 25px;  }
+.navbar.navbar-expand-lg ul {  margin-top: 50px; text-align: start;  }
+.header-icons {  padding-top: 25px;  }
+.header-icon {  padding-top: 25px;  }
+.header-icon::before {   top: 10px;  }
+.col-md-4.header-menu { width: 100%;   max-width: 100%;    flex: 0 0 100.333333%;   }
+.header-menu {    margin-bottom: 20px;    }
+#email {   padding: 12px 10px;   width: 43%;  }
+.top-header-menu .col-md-2 {  flex: 0 0 25.666667%;   max-width: 25.666667%;  }
+.top-header-menu .col-md-1 { -ms-flex: 0 0 8.333333%;      flex: 0 0 25.333333%;    max-width: 22.333%;}
+.top-header-menu .col-md-3 {   -ms-flex: 0 0 25%;    flex: 0 0 25%;   max-width: 25%;   }
+.department-text .dep-link1 { color: #797979;  font-size: 14px;  font-family: 'Gotham Narrow Book';   font-weight: normal;   }
+.department-text ul .dep-item1 {  padding: 10px 8px;    border-bottom: 1px solid #e5e3d8;   }
+.deal-box1 h5 {    font-size: 14px; }
+.deal-heading h3 {   font-size: 24px;  }
+.deal-text h6 {   font-size: 16px; }
+.col.week-main-link .fas.fa-angle-right {  padding-left: 0px;   }
+.week-text .dep-link2 {  font-size: 12px;   }
+.week-text .dep-link3 { font-size: 12px;   }
+.week-block .col {   flex: 0 0 33%;   max-width: 33%;    text-align: center;    margin-bottom: 50px;  }
+.week-block2 .col-md-2 {  -ms-flex: 0 0 16.666667%;  flex: 0 0 50.666667%;  max-width: 49.666667%;   margin-bottom: 50px;  }
+.weekly-heading h2 { font-size: 18px;  }
+.deal-text p { font-size: 16px;   }
 
-    body {
-        overflow-x: hidden;
-    }
-    
-   }
-
-   @media only screen and (max-width:991px) {
-
-    .navbar-toggler {
-        position: absolute;
-        right: 0px;
-        top: 25px;
-    }
-    .navbar.navbar-expand-lg ul {
-        margin-top: 50px;
-        text-align: start;
-    }
-
-    .header-icons {
-        padding-top: 25px;
-    }
-    .header-icon {
-        padding-top: 25px;
-    }
-
-    .header-icon::before {
-       
-        top: 10px;
-    }
-
-    .col-md-4.header-menu {
-        width: 100%;
-        max-width: 100%;
-        flex: 0 0 100.333333%;
-    }
-
-    .header-menu {
-        margin-bottom: 20px;
-    }
-
-    #email {
-        padding: 12px 10px;
-        width: 43%;
-    }
-
-    .top-header-menu .col-md-2 {
-        
-        flex: 0 0 25.666667%;
-        max-width: 25.666667%;
-    }
-
-    .top-header-menu .col-md-1 {
-        -ms-flex: 0 0 8.333333%;
-        flex: 0 0 25.333333%;
-        max-width: 22.333%;
-    }
-
-    .top-header-menu .col-md-3 {
-        -ms-flex: 0 0 25%;
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
-
-    .department-text .dep-link1 {
-        color: #797979;
-        font-size: 14px;
-        font-family: 'Gotham Narrow Book';
-        font-weight: normal;
-    }
-    .department-text ul .dep-item1 {
-        padding: 10px 8px;
-        border-bottom: 1px solid #e5e3d8;
-    }
-
-    .deal-box1 h5 {
-        font-size: 14px;
-    }
-
-    .deal-heading h3 {
-        font-size: 24px;
-    }
-
-    .deal-text h6 {
-        font-size: 16px;
-    }
-    .col.week-main-link .fas.fa-angle-right {
-        padding-left: 0px;
-    }
-    .week-text .dep-link2 {
-        font-size: 12px;
-         
-    }
-    .week-text .dep-link3 {
-    font-size: 12px;
-    }
-
-    .week-block .col {
-        flex: 0 0 33%;
-        max-width: 33%;
-        text-align: center;
-        margin-bottom: 50px;
-    }
-
-    .week-block2 .col-md-2 {
-        -ms-flex: 0 0 16.666667%;
-        flex: 0 0 50.666667%;
-        max-width: 49.666667%;
-        margin-bottom: 50px;
-    }
-
-    .weekly-heading h2 {
-    font-size: 18px;
-    }
-    .deal-text p {
-    font-size: 16px;
-    }
-
-    .feature-text .deal-box1 .deal-text h6 {
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-    .deal-text h2 {
-        font-size: 18px;
-        
-    }
-    .deal-text p {
-        font-size: 13px;
-    }
-
-    .banner-btn {
-     padding: 8px 8px;
-    font-size: 11px;
-    }
-    .feature-text .deal-box1 .deal-shapes {
-        margin-top: 0px;
-    }
-
-    .feature-text .deal-box1 .deal-shapes p {
-        font-size: 12px;  
-    }
-
-    .deal-shapes {
-        padding-bottom: 0px;
-    }
-
-    .deal-text h6 {
-        font-size: 12px;
-    }
-
-    .deal-shapes p {
-        font-size: 10px;
-        
-    }
-    .topnav a {
-    padding: 8px 10px; 
-    }
-
-    #footer .col {
-        flex: 0 0 50.666667%;
-        max-width: 49.666667%;
-        margin-bottom: 20px;
-    }
+.feature-text .deal-box1 .deal-text h6 {   font-size: 14px;    margin-bottom: 10px;   }
+.deal-text h2 {  font-size: 18px; }
+.deal-text p {   font-size: 13px;   }
+.banner-btn {  padding: 8px 8px; font-size: 11px;   }
+.feature-text .deal-box1 .deal-shapes {     margin-top: 0px;   }
+.feature-text .deal-box1 .deal-shapes p {   font-size: 12px;    }
+.deal-shapes {   padding-bottom: 0px;  }
+.deal-text h6 {    font-size: 12px;}
+.deal-shapes p {   font-size: 10px;  }
+.topnav a {padding: 8px 10px;    }
+#footer .col { flex: 0 0 50.666667%;     max-width: 49.666667%;   margin-bottom: 20px;}
 }
-
-
 @media only screen and (max-width:767px) {
-    .top-header {
-    text-align: center;
-    }
-    .header-call-text {
-        margin-bottom: 10px;
-    }
-    .top-header-link {
-        float: unset;
-    }
-    .top-header-menu .col-md-2 {
-        flex: 0 0 50.666667%;
-        max-width: 50.666667%;
-    }
-    .top-header-menu .col-md-3 {
-        -ms-flex: 0 0 25%;
-        flex: 0 0 50%;
-        max-width: 49%;
-    }
-    .top-header-menu .col-md-1 {
-        -ms-flex: 0 0 8.333333%;
-        flex: 0 0 50.333333%;
-        max-width: 49.333%;
-        text-align: end;
-    }
+.top-header {text-align: center; }
+.header-call-text {   margin-bottom: 10px;   }
+.top-header-link {   float: unset; }
+.top-header-menu .col-md-2 {flex: 0 0 50.666667%;  max-width: 50.666667%;  }
+.top-header-menu .col-md-3 { -ms-flex: 0 0 25%; flex: 0 0 50%;  max-width: 49%;  }
+.top-header-menu .col-md-1 { -ms-flex: 0 0 8.333333%;  flex: 0 0 50.333333%;  max-width: 49.333%;   text-align: end;   }
+.header-icon { float: right;  }
+.header-icons {  text-align: start;   display: block;  }
+.navbar.navbar-expand-lg {    float: unset; }.header-logo img {    width: unset;  }
+.banner-text h1 { font-size: 20px;  }
+.banner-btn {   font-size: 10px; }
+.deal-box1 h5 {   font-size: 16px;  }
+.official-heading img {      width: auto; }
+.official-inner {    margin-bottom: 30px;   }
+#deal {  text-align: center;   }
+.deal-heading-linkgo {float: unset;  }
+.deal-text h6 { font-size: 18px; }
+.deal-text p {    font-size: 16px;   }
+.deal-shapes p { font-size: 14px; }
+#week { margin-bottom: 60px; text-align: center;   }
+.week-block .col {   flex: 0 0 100%;   max-width: 100%;  text-align: center;   margin-bottom: 50px;   }
+.baseus {     height: unset;   }
+.week-block2 .col-md-2 {   -ms-flex: 0 0 16.666667%;    flex: 0 0 100.666667%;   max-width: 100.666667%;   margin-top: 50px; }
+#deal-2 {   text-align: center;  }
+.deal-heading-tab {   justify-content: center;  display: flex;    }
+.deal-box {  margin-bottom: 20px;  }
+#news {     text-align: center;  }
+.weekly-text {   display: block;  overflow: hidden;  width: 100%;  top: 0;    right: 44px;  text-align: center;   position: unset;  }
 
-    .header-icon {
-         
-        float: right;
-    }
-    .header-icons {
-        text-align: start;
-        display: block;
-    }
-    .navbar.navbar-expand-lg {
-        float: unset;
-    }
-    .header-logo img {
-        width: unset;
-    }
-
-    .banner-text h1 {
-    font-size: 20px; 
-    }
-    .banner-btn {
-        font-size: 10px;
-    }
-    .deal-box1 h5 {
-        font-size: 16px;
-    }
-
-    .official-heading img {
-        width: auto;
-         
-    }
-
-    .official-inner {
-        margin-bottom: 30px;
-    }
-
-    #deal {
-    text-align: center;
-    }
-
-    .deal-heading-linkgo {
-    float: unset;     
-    }
-    .deal-text h6 {
-        font-size: 18px;
-    }
-    .deal-text p {
-        font-size: 16px;
-    }
-    .deal-shapes p {
-        font-size: 14px;
-    }
-    #week {
-        margin-bottom: 60px;
-        text-align: center;
-    }
-
-    .week-block .col {
-        flex: 0 0 100%;
-        max-width: 100%;
-        text-align: center;
-        margin-bottom: 50px;
-    }
-    .baseus {
-        height: unset;
-    }
-
-    .week-block2 .col-md-2 {
-        -ms-flex: 0 0 16.666667%;
-        flex: 0 0 100.666667%;
-        max-width: 100.666667%;
-        margin-top: 50px;
-    }
-    #deal-2 {
-        text-align: center;
-    }
-
-    .deal-heading-tab {
-        justify-content: center;
-        display: flex;
-    }
-    .deal-box {
-    margin-bottom: 20px;
-    }
-    #news {
-        text-align: center;
-    }
-
-    .weekly-text {
-        display: block;
-        overflow: hidden;
-        width: 100%;
-        top: 0;
-        right: 44px;
-        text-align: center;
-        position: unset;
-    }
-
-    .weekly-heading h2 {
-        font-size: 20px;
-        color: #000;
-    }
-    .week-ph {
-          font-size: 16px;
-    }
-    .banner-btn {
-        padding: 8px 20px;
-        
-    }
-     
+.weekly-heading h2 { font-size: 20px;    color: #000;  } .week-ph { font-size: 16px; }
+.banner-btn {    padding: 8px 20px; }
 }
-
-@media only screen and (max-width:575px) {
-    #footer .col {
-        flex: 0 0 100.666667%;
-        max-width: 100.666667%;
-        margin-bottom: 20px;
-    }
+@media only screen and (max-width:575px){ 
+#footer .col {flex: 0 0 100.666667%;    max-width: 100.666667%;    margin-bottom: 20px;
+ }
 }
 
 
